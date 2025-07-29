@@ -41,6 +41,44 @@ const projects = [
   }
 ]
 
+const pdfs = [
+  {
+    id: "project-1",
+    title: "Recorrido y espacios de transición (Peter Zumthor Christopher Alexander)",
+    pdfUrl: "https://res.cloudinary.com/dh01ngdjo/image/upload/v1753807927/s9swu6urilz1kz2iprz4.pdf"
+  },
+  {
+    id: "project-2",
+    title: "EJERCICIO 3 - LOCALIZACION GEOGRAFICA",
+    pdfUrl: "https://res.cloudinary.com/dh01ngdjo/image/upload/v1753807926/iodhpnptulsr1iepitkm.pdf"
+  },
+  {
+    id: "project-3",
+    title: "ANÁLISIS DE REFERENTE",
+    pdfUrl: "https://res.cloudinary.com/dh01ngdjo/image/upload/v1753807926/bczjzxkrsytjpjsvu0lh.pdf"
+  },
+  {
+    id: "project-4",
+    title: "Anteproyecto Arquitectónico de Piscinas Recreativas y Deportivas en el Sector de Calderón",
+    pdfUrl: "/pdfs/project4.pdf"
+  },
+  {
+    id: "project-4",
+    title: "Replanteo en Calderón",
+    pdfUrl: "https://res.cloudinary.com/dh01ngdjo/image/upload/v1753807926/m7i2rk8lwsyf0squpylx.pdf"
+  },
+  {
+    id: "project-4",
+    title: "Preentrega Proyecto de Piscinas Recreativas y Deportivas en el Sector de Calderón",
+    pdfUrl: "https://res.cloudinary.com/dh01ngdjo/image/upload/v1753807927/yu5strn8qllggniovvos.pdf"
+  },
+  {
+    id: "https://res.cloudinary.com/dh01ngdjo/image/upload/v1753807926/uxkajtgxsp3risx3llcv.pdf",
+    title: "Entrega final de Piscinas Recreativas y Deportivas en el Sector de Calderón",
+    pdfUrl: "/pdfs/project4.pdf"
+  }
+];
+
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-white">
@@ -65,7 +103,7 @@ export default function HomePage() {
                 href="/"
                 className="text-sm font-light tracking-wider text-gray-900 hover:text-gray-600 transition-colors uppercase"
               >
-                Recreación 
+                Recreación
               </Link>
               <Link
                 href="#"
@@ -88,6 +126,9 @@ export default function HomePage() {
           </div>
         </div>
       </header>
+
+
+
 
       {/* Hero Section */}
       <section className="pt-32 pb-24 bg-white">
@@ -122,7 +163,7 @@ export default function HomePage() {
                       height={400}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
                     />
-                  </div> 
+                  </div>
                   <div className="space-y-3">
                     <div className="flex items-center justify-between">
                       <span className="text-xs font-light tracking-widest text-gray-400 uppercase">{project.type}</span>
@@ -138,6 +179,21 @@ export default function HomePage() {
             ))}
           </div>
         </div>
+      </section>
+
+      <section className="pt-24 pb-12 bg-white w-full flex flex-col justify-evenly ">
+        <h2 className="text-3xl font-light text-gray-900 mb-8 text-center tracking-wide">
+          Mas Proyectos
+        </h2>
+        {pdfs.map((feature, index) => (
+          <div key={index} className=" text-center flex p-3 px-3  items-center space-y-4">
+            <a href={`${pdfs.pdfUrl}`} target="_blank" className="  px-6 left-3 p-4 text-black bg-red-300 border-red-600 border-1  rounded-2xl">ver PDF</a>
+
+            <h2 className=" font-light p-4 text-gray-900 mb-6 tracking-wide">
+              {feature.title}
+            </h2>
+          </div>
+        ))}
       </section>
 
       {/* Footer */}
