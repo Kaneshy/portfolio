@@ -13,16 +13,16 @@ const projectsData = {
     client: "Private Client",
     area: "",
     description:
-      "This contemporary family home represents a harmonious blend of modern architecture and sustainable living. The design emphasizes clean lines, open spaces, and a strong connection to the natural environment. Large floor-to-ceiling windows flood the interior with natural light while providing stunning views of the surrounding landscape.",
+      "La incorporación de un patio central como núcleo articulador de la vivienda transforma un antiguo espacio oscuro y de mera circulación en un lugar activo y con carácter. Este nuevo vacío permite la entrada de luz natural, mejora la ventilación cruzada y crea conexiones visuales y funcionales entre los distintos espacios, consolidando un patrón vivo esencial.",
     challenge:
-      "The main challenge was to create a modern home that would complement the natural hillside setting while maximizing views and natural light. The sloping terrain required innovative structural solutions.",
+      "La creación de múltimos puntos sociales exteriores permite el aprovechamiento real del terreno. Se introdujeron áreas de ocio y encuentro que fomentan la interacción, el descanso y el contacto con el exterior, activando zonas que antes eran residuales o infrautilizadas.",
     solution:
       "La vivienda carece de un espacio destinado específicamente al comedor, lo que obliga a los usuarios a realizar esta actividad en áreas inadecuadas como la sala de estar o los dormitorios, afectando la funcionalidad y la jerarquía espacial del interior. El espacio central de la vivienda se limita a una función de circulación, carece de una identidad propia y no recibe iluminación natural adecuada, lo que lo convierte en un espacio oscuro y sin vitalidad. El diseño no contempla áreas destinadas al ocio o al encuentro social en el exterior, lo cual representa una oportunidad perdida para introducir patrones vivos como patios activos, jardines habitables o terrazas con funciones claras.La ubicación de las ventanas no funcionan y el patio no se utiliza lo que lo hace un patio muerto. El patio no se integra con las actividades de la vivienda y carece de conexiones visuales o físicas efectivas, lo que lo convierte en un espacio residual o muerto. La ubicación y proporción de las ventanas tampoco fomentan el vínculo interior-exterior.",
     features: [
-      "La fachada principal carece de elementos que inviten a ser observada o recorrida. No presenta articulaciones formales, materiales o espaciales que propicien un sentido de entrada o pertenencia, haciendo que el acceso pase desapercibido.",
+      "La adición de un umbral arquitectónico en el acceso principal ofrece una transición gradual entre el espacio público y el privado. Este filtro espacial no solo mejora la percepción de acogida y privacidad, sino que también añade riqueza sensorial y jerarquía al recorrido hacia el interior.",
       "Open-plan living spaces with 20-foot ceilings",
-      "La falta de elementos arquitectónicos como pérgolas, aleros, bancas, vegetación o transiciones escalares refuerza la ausencia de patrones vivos y reduce la habitabilidad del entorno inmediato.",
-      "No se observan estrategias de diseño bioclimático que optimicen la orientación, ventilación cruzada o captación de luz natural, lo que repercute negativamente en la calidad ambiental interior.",
+      "Como resultado de estas acciones, la fachada adquiere una nueva dimensión: más legible, acogedora y significativa. El acceso ya no es una simple puerta, sino un gesto arquitectónico con intención, reforzando la experiencia del ingreso y estableciendo un diálogo más claro con el entorno urbano.",
+      "Finalmente, se evidencia una mejora notable en la calidad espacial, la distribución funcional y la habitabilidad general de la vivienda. Se han reactivado zonas anteriormente muertas mediante el uso estratégico de vacíos, vegetación, luz natural y relaciones espaciales más fluidas.",
     ],
     images: [
       "https://res.cloudinary.com/dztz492su/image/upload/v1753800173/books/vqthdeawzgrxqzldid4g.jpg",
@@ -360,7 +360,7 @@ export default function ProjectPage({ params }) {
             <h3 className="text-2xl font-light text-gray-900 mb-4 tracking-wide">Interesado en trabajar juntos?</h3>
             <div className="w-12 h-px bg-gray-300 mx-auto mb-6"></div>
             <p className="text-gray-500 font-light mb-8 tracking-wide">
-              Let's discuss how we can bring your architectural vision to life.
+              Let&apos;s discuss how we can bring your architectural vision to life.
             </p>
             <Link
               href="#"
