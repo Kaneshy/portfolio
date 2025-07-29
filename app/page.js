@@ -145,7 +145,7 @@ export default function HomePage() {
         <div className="container mx-auto px-6">
           <div className="max-w-2xl mx-auto text-center">
             <h3 className="text-2xl font-light text-gray-900 mb-4 tracking-wide">
-              Let's Create Something Amazing Together
+              Lets Create Something Amazing Together
             </h3>
             <div className="w-12 h-px bg-gray-300 mx-auto mb-6"></div>
             <p className="text-gray-500 font-light mb-8 tracking-wide">

@@ -48,7 +48,7 @@ const projectsData = {
     challenge:
       "Sistemas solares pasivos: El aprovechamiento de la radiación solar puede aumentar la temperatura interna a niveles confortables, cuando las temperaturas exteriores oscilan entre 10° y 20° el diseño del edificio debe incluir superficies vidriadas orientadas al sol, buenos espesores de aislante térmico, aberturas reducidas en las orientaciones menos favorables y proporciones apropiadas de espacios exteriores para lograr asoleamiento invernal. El uso de elementos constructivos interiores, con gran capacidad térmica, evitará amplitudes interiores excesivas . Cuando la temperatura exterior es menor a 10° C, las ganancias solares dificilmente pueden proporcionar temperaturas interiores confortables, aunque con mayores espesores de aislantes y sistemas solares pasivos de alta eficiencia, se puede lograr confort en días soleados con temperaturas de 0° C. En todas maneras, el aporte de calor resulta significativo, logrando disminuir la necesidad de combustibles convencionales y mejorando las condiciones interiores..",
     solution:
-      "Our design features a stepped facade that provides outdoor terraces on multiple levels, while the ground floor opens up to create a welcoming public plaza. The building's form responds to zoning requirements while creating distinctive architectural character.",
+      "",
     features: [
       "La nueva configuración espacial mejora sustancialmente la calidad ambiental interior, tanto en términos de confort térmico como de iluminación natural.",
       "El juego de niveles y la manipulación topográfica no solo respondieron a una necesidad funcional de zonificación, sino que también añadieron riqueza espacial y belleza arquitectónica.",
@@ -360,7 +360,7 @@ export default function ProjectPage({ params }) {
             <h3 className="text-2xl font-light text-gray-900 mb-4 tracking-wide">Interesado en trabajar juntos?</h3>
             <div className="w-12 h-px bg-gray-300 mx-auto mb-6"></div>
             <p className="text-gray-500 font-light mb-8 tracking-wide">
-              Let&apos;s discuss how we can bring your architectural vision to life.
+              lets discuss how we can bring your architectural vision to life.
             </p>
             <Link
               href="#"
