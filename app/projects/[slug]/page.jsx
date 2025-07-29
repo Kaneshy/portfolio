@@ -1,7 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
 import { ArrowLeft, MapPin, Calendar, Building } from "lucide-react"
-import { Button } from "@/components/ui/button"
 
 // Sample detailed project data - you can replace this with your actual project details
 const projectsData = {
