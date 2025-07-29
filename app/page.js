@@ -122,7 +122,7 @@ export default function HomePage() {
                       height={400}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
                     />
-                  </div>
+                  </div> 
                   <div className="space-y-3">
                     <div className="flex items-center justify-between">
                       <span className="text-xs font-light tracking-widest text-gray-400 uppercase">{project.type}</span>

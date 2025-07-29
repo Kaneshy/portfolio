@@ -1,44 +1,44 @@
 
 
-  import Link from 'next/link';
+  import Link from "next/link";
 
 // Dummy data for projects (replace with real data or dynamic loading)
 const projects = [
   {
-    id: 'project-1',
-    title: 'Recorrido y espacios de transición (Peter Zumthor Christopher Alexander)',
-    thumbnail: 'https://res.cloudinary.com/dztz492su/image/upload/v1753800173/books/vqthdeawzgrxqzldid4g.jpg',
-    pdfUrl: '/pdfs/project1.pdf'
+    id: "project-1",
+    title: "Recorrido y espacios de transición (Peter Zumthor Christopher Alexander)",
+    thumbnail: "https://res.cloudinary.com/dztz492su/image/upload/v1753800173/books/vqthdeawzgrxqzldid4g.jpg",
+    pdfUrl: "/pdfs/project1.pdf"
   },
   {
-    id: 'project-2',
-    title: 'Urban Park Design',
-    thumbnail: 'https://res.cloudinary.com/dztz492su/image/upload/v1753800174/books/rupcmjeldd1j9qsnswac.jpg',
-    pdfUrl: '/pdfs/project2.pdf'
+    id: "project-2",
+    title: "Urban Park Design",
+    thumbnail: "https://res.cloudinary.com/dztz492su/image/upload/v1753800174/books/rupcmjeldd1j9qsnswac.jpg",
+    pdfUrl: "/pdfs/project2.pdf"
   },
   {
-    id: 'project-2',
-    title: 'Urban Park Design',
-    thumbnail: 'https://res.cloudinary.com/dztz492su/image/upload/v1753800173/books/zru62zas9pukcqs6tife.jpg',
-    pdfUrl: '/pdfs/project2.pdf'
+    id: "project-2",
+    title: "Urban Park Design",
+    thumbnail: "https://res.cloudinary.com/dztz492su/image/upload/v1753800173/books/zru62zas9pukcqs6tife.jpg",
+    pdfUrl: "/pdfs/project2.pdf"
   },
   {
-    id: 'project-2',
-    title: 'Urban Park Design',
-    thumbnail: 'https://res.cloudinary.com/dztz492su/image/upload/v1753800173/books/gtoozesjlueyra83kh9n.jpg',
-    pdfUrl: '/pdfs/project2.pdf'
+    id: "project-2",
+    title: "Urban Park Design",
+    thumbnail: "https://res.cloudinary.com/dztz492su/image/upload/v1753800173/books/gtoozesjlueyra83kh9n.jpg",
+    pdfUrl: "/pdfs/project2.pdf"
   },
   {
-    id: 'project-2',
-    title: 'Urban Park Design',
-    thumbnail: 'https://res.cloudinary.com/dztz492su/image/upload/v1753800173/books/dzer7kmz1x7mxe0oudzf.jpg',
-    pdfUrl: '/pdfs/project2.pdf'
+    id: "project-2",
+    title: "Urban Park Design",
+    thumbnail: "https://res.cloudinary.com/dztz492su/image/upload/v1753800173/books/dzer7kmz1x7mxe0oudzf.jpg",
+    pdfUrl: "/pdfs/project2.pdf"
   },
   {
-    id: 'project-2',
-    title: 'Urban Park Design',
-    thumbnail: 'https://res.cloudinary.com/dztz492su/image/upload/v1753800173/books/dzer7kmz1x7mxe0oudzf.jpg',
-    pdfUrl: '/pdfs/project2.pdf'
+    id: "project-2",
+    title: "Urban Park Design",
+    thumbnail: "https://res.cloudinary.com/dztz492su/image/upload/v1753800173/books/dzer7kmz1x7mxe0oudzf.jpg",
+    pdfUrl: "/pdfs/project2.pdf"
   },
   // Add more projects as needed
 ];
